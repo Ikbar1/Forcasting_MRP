@@ -58,3 +58,17 @@ mse_wma = df['Error_WMA_squared'].mean()
 
 st.write(f"MAE WMA: {mae_wma}")
 st.write(f"MSE WMA: {mse_wma}")
+
+# Menambahkan footer dengan teks di tengah
+st.markdown("***")
+footer = """
+<div style='text-align: center;'>
+    <p><b>NIM dan Nama Lengkap Kelompok:</b></p>
+    <p><b>21108001</b>: FIRMANSYAH</p>
+    <p><b>21120008</b>: FIRRAH AZHARA</p>
+    <p><b>23170006</b>: AZHAR RAVI FALAH</p>
+    <p><b>23170007</b>: ASYAM IKBAR ARIYANTO</p>
+    <p><b>23170009</b>: RANU RAMADHAN</p>
+</div>
+"""
+st.markdown(footer, unsafe_allow_html=True)
